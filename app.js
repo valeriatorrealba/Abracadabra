@@ -25,8 +25,8 @@ app.get("/abracadabra/usuarios", (req, res) => {
     res.json({ usuarios: nombres });
 });
 
-// 4. Crear un middleware con la ruta /abracadabra/juego/:usuario para validar que el usuario recibido como parámetro “usuario” existe en el arreglo de nombres creado en el servidor.
-//En caso de ser exitoso, permitir el paso a la ruta GET correspondiente, de lo contrario devolver la imagen “who.jpeg”.
+// 4. Crear un middleware con la ruta /abracadabra/juego/:usuario para validar que el usuario recibido como parámetro “usuario” existe en el 
+//arreglo de nombres creado en el servidor. En caso de ser exitoso, permitir el paso a la ruta GET correspondiente, de lo contrario devolver la imagen “who.jpeg”.
 app.use("/abracadabra/juego/:usuario", (req, res, next) => {
     const autorizacion = req.params.usuario; 
     const validacion = nombres;
