@@ -4,9 +4,9 @@
 
 En este desafío, se valida el conocimiento en Node.js y Express mediante la creación de rutas, el manejo de objetos `Request` y `Response`, el uso de middlewares, y la devolución de sitios web estáticos. El objetivo es desarrollar un servidor que sirva un sitio web estático con una temática de magia, en el cual los usuarios pueden interactuar con una interfaz que presenta cuatro sombreros. Al hacer clic en uno de estos sombreros, se debe mostrar una imagen de un conejo oculto si se acierta el número aleatorio generado en el servidor.
 
-## Vista Codificada
+## Vista del Diseño
 
-A continuación, se muestra la imagen del resultado codificado:
+Aquí puedes ver la imagen del diseño que se utilizó como referencia:
 
 ![abracadabra](assets/screenshot/abracadabra.png)
 
