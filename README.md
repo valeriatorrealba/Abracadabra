@@ -8,7 +8,7 @@ En este desafío, se valida el conocimiento en Node.js y Express mediante la cre
 
 A continuación, se muestra la imagen del resultado codificado:
 
-![abracadabra](screenshot/abracadabra.png)
+![abracadabra](assets/screenshot/abracadabra.png)
 
 ## Requerimientos
 
